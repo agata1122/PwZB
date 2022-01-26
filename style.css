@@ -1,0 +1,91 @@
+body {
+  font-family: "Sofia", sans-serif;
+  background-color: pink;
+}
+input,
+label,
+select,
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+}
+
+div.main {
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.content {
+  width: 80%;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+div.title {
+  font-size: 50px;
+}
+
+.header {
+  width: 90%;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-photo > img {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed black;
+}
+
+.product {
+  padding: 20px;
+  width: 300px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-name {
+  font-size: 25px;
+}
+
+.onas-photo > img {
+  width: 400px;
+  margin: 20px;
+}
+
+.o-nas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  width: 500px;
+}

@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moja reklama</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="title">Agata Cosmetics</div>
+        <div class="menu">
+          <div class="menu-button">
+            <a href="o-nas.html">O nas</a>
+          </div>
+          <div class="menu-button">
+            <a href="produkty.html">Produkty</a>
+          </div>
+          <div class="menu-button">
+            <a href="zamowienie.html">Zamówienie</a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>formularz zamowienia</h1>
+        <form>
+          <fieldset>
+            <legend>Twoje zamówienie</legend>
+            <label for="imie">Imię</label> <br />
+            <input type="text" id="imie" placeholder="Agata" /> <br />
+            <label for="nazwisko">Nazwisko</label><br />
+            <input type="text" id="nazwisko" placeholder="Bogdanowicz" /> <br />
+            <label for="produkt">Produkt</label><br />
+            <select type="text" id="produkt">
+              <option>Pędzel</option>
+              <option>Pomadka</option>
+              <option>Cień do powiek</option></select
+            ><br />
+            <label for="adres dostawy">Adres dostawy</label><br />
+            <input type="text" id="adres dostawy" placeholder="Moj dom" />
+            <br />
+            <label for="data">Preferowana data dostawy</label> <br />
+            <input type="date" id="data" value="data" /><br />
+            <label for="uwagi">Uwagi</label><br />
+            <textarea id="uwagi" name="uwagi" rows="6"></textarea><br />
+            <label for="plik">Prześlij specyfikację</label><br />
+            <input type="file" id="plik" value="plik" /> <br />
+            <label for="regulamin">Akceptuje warunki regulaminu</label><br />
+            <input type="checkbox" id="regulamin" /><br />
+            <input type="submit" value="Złóż zamówienie" /><br />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
